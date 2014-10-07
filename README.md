@@ -15,8 +15,8 @@ used if user base is in thousands.
 
 Do remeber that GCMBaseIntentService is deprecated so you should use GoogleCloudMessaging API instead
 
-
 License
+===============
 
 Copyright (C) 2014 Naman Dwivedi  (namandwivedi14@gmail.com)
 
