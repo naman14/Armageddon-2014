@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Armageddon 2014</string>
+    <string name="blank_text"></string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="help_feedback">Help &amp; feedback</string>
+    <string name="headertitle">IET DTU</string>
+    <string name="headersubtitle">Armageddon 2014</string>
+
+
+
+</resources>

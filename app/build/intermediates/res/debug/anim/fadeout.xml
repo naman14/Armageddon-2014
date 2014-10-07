@@ -1,0 +1,2 @@
+
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:anim/linear_interpolator" android:propertyName="alpha" android:valueFrom="1.065353216" android:valueTo="0.0" android:duration="300" /> <!-- From: file:/Users/naman/Armagedoon%202014/app/src/main/res/anim/fadeout.xml -->

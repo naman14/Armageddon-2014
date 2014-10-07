@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+
+    android:clipToPadding="false"
+
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:layout_marginBottom="4dp"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:scaleType="center"
+            android:src="@drawable/android" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@color/green_transparent"
+            android:padding="12dp">
+
+            <com.naman14.armagaddon.mockup.design.tests.GoogleSearchTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Android App Development"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:text=" The Rise of android applications has been astounding. For the past couple of years, apps have increased exponentially. Any innovative idea, no matter how simple it may be, can receive millions of hits. In the app development workshops, you can learn how to make great apps from scratch.
+
+
+"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutAnimation="@anim/layout_controller_color2"
+        android:gravity="center"
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/green_transparent"
+            android:textSize="30sp"
+
+            android:text="October"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/green_transparent"
+            android:textSize="50sp"
+
+            android:text="14"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:textColor="@color/green_transparent"
+        android:textSize="20sp"
+        android:text="Event Coordinators"/>
+    <View
+        android:layout_width="250dp"
+        android:paddingLeft="30dp"
+        android:layout_gravity="center"
+        android:paddingRight="30dp"
+        android:layout_height="2dp"
+        android:background="@color/green_transparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layoutAnimation="@anim/layout_controller_color2"
+        android:orientation="horizontal"
+
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/green_transparent"
+            android:textSize="25sp"
+
+            android:text="Shailender"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:paddingLeft="30dp"
+            android:textColor="@color/green_transparent"
+            android:textSize="20sp"
+
+            android:text="+918285582221"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:layoutAnimation="@anim/layout_controller_color2"
+        android:orientation="horizontal"
+
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+
+            android:textColor="@color/green_transparent"
+            android:textSize="25sp"
+
+            android:text="Lakshay"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:paddingLeft="30dp"
+            android:textColor="@color/green_transparent"
+            android:textSize="20sp"
+
+            android:text="+919999927483"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

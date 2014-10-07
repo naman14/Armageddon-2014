@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:delay="30%"
+    android:animation="@anim/slide_out" /><!-- From: file:/Users/naman/Armagedoon%202014/app/src/main/res/anim/layout_controller_color2.xml -->

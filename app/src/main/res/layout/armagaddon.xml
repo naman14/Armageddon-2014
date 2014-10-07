@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+
+    android:clipToPadding="false"
+
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="4dp"
+        android:layoutAnimation="@anim/layout_controller_color"
+
+       >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:scaleType="center"
+            android:src="@drawable/photo1" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="12dp">
+
+            <com.naman14.armagaddon.mockup.design.tests.GoogleSearchTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Armagaddon 2014"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+
+                android:fontFamily="sans-serif-condensed"
+                android:text="IET DTU"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:text="IET is proud to organize the annual techweek Armagaddon, which is to be held between the 13th and 17th October"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutAnimation="@anim/layout_controller_color2"
+        android:gravity="center"
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/purple_transparent"
+            android:textSize="30sp"
+
+            android:text="October"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/purple_transparent"
+            android:textSize="50sp"
+
+            android:text="13 -"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/purple_transparent"
+            android:textSize="50sp"
+
+            android:text=" 17"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+
+    android:clipToPadding="false"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:layoutAnimation="@anim/layout_controller_color"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:scrollbarStyle="outsideOverlay">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="4dp"
+
+        android:onClick="showDTU">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:scaleType="center"
+            android:src="@drawable/dtu" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue_transparent"
+            android:padding="12dp">
+
+            <com.naman14.armagaddon.mockup.design.tests.GoogleSearchTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:fontFamily="sans-serif-condensed"
+                android:text="DTU"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+
+        </FrameLayout>
+    </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="4dp"
+
+            android:onClick="showIET">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:scaleType="center"
+                android:src="@drawable/iet" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green_transparent"
+                android:padding="12dp">
+
+                <com.naman14.armagaddon.mockup.design.tests.GoogleSearchTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="IET"
+                    android:paddingLeft="20dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+
+
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="4dp"
+
+            android:onClick="showIetDtu">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:scaleType="center"
+                android:src="@drawable/dtu" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/red_transparent"
+                android:padding="12dp">
+
+                <com.naman14.armagaddon.mockup.design.tests.GoogleSearchTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:paddingLeft="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="IET DTU Student Chapter"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+
+
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="4dp"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:scaleType="center"
+                android:src="@drawable/developer" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/purple_transparent"
+                android:padding="12dp">
+
+                <com.naman14.armagaddon.mockup.design.tests.GoogleSearchTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="App Developed By-  Naman Dwivedi"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+
+
+            </FrameLayout>
+        </FrameLayout>
+</LinearLayout>
+
+</ScrollView><!-- From: file:/Users/naman/Armagedoon%202014/app/src/main/res/layout/aboutfragment.xml -->

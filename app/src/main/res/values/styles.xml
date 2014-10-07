@@ -1,0 +1,295 @@
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="Armageddon.Theme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.ActionBar</item>
+        <item name="actionBarStyle">@style/Armageddon.Theme.ActionBar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+
+
+
+
+
+    <style name="Armageddon.Theme.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/armageddon_theme_actionbar_color</item>
+        <item name="background">@color/armageddon_theme_actionbar_color</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+
+        <item name="android:height">58.0dip</item>
+        <item name="android:icon"
+            tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+
+    </style>
+
+
+
+
+    <style name="Armageddon.Theme.OverFlow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_mtrl_alpha</item>
+    </style>
+    <style name="TitleBarTextColor"  parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="armagaddontheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/armagaddonactionbar</item>
+        <item name="actionBarStyle">@style/armagaddonactionbar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+    <style name="armagaddonactionbar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/purple_transparent</item>
+        <item name="background">@color/purple_transparent</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+
+        <item name="android:height">58.0dip</item>
+
+        <item name="android:icon"
+            tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+
+    </style>
+    <style name="raspberrytheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/raspberryactionbar</item>
+        <item name="actionBarStyle">@style/raspberryactionbar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+    <style name="raspberryactionbar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/red_transparent</item>
+        <item name="background">@color/red_transparent</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:height">58.0dip</item>
+
+        <item name="android:icon"
+            tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+    </style>
+
+    <style name="quizmoztheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/quizmozactionbar</item>
+        <item name="actionBarStyle">@style/quizmozactionbar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+    <style name="quizmozactionbar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/blue_transparent</item>
+        <item name="background">@color/blue_transparent</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:height">58.0dip</item>
+
+        <item name="android:icon"
+            tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+
+    </style>
+
+    <style name="androidapptheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/androidappactionbar</item>
+        <item name="actionBarStyle">@style/androidappactionbar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+    <style name="androidappactionbar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/green_transparent</item>
+        <item name="background">@color/green_transparent</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:height">58.0dip</item>
+
+        <item name="android:icon"
+            tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+
+    </style>
+
+    <style name="animationtheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/animationactionbar</item>
+        <item name="actionBarStyle">@style/animationactionbar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+    <style name="animationactionbar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/purple_transparent</item>
+        <item name="background">@color/purple_transparent</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:height">58.0dip</item>
+
+        <item name="android:icon"
+            tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+
+    </style>
+
+    <style name="aerotheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/aeroactionbar</item>
+        <item name="actionBarStyle">@style/aeroactionbar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+    <style name="aeroactionbar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/pink_transparent</item>
+        <item name="background">@color/pink_transparent</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:height">58.0dip</item>
+
+        <item name="android:icon"
+            tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+
+    </style>
+
+    <style name="autocaddtheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/autocaddactionbar</item>
+        <item name="actionBarStyle">@style/autocaddactionbar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+    <style name="autocaddactionbar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/red_transparent</item>
+        <item name="background">@color/red_transparent</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:height">58.0dip</item>
+                                   <item name="android:icon"
+                                       tools:ignore="NewApi">@android:color/transparent</item>
+                                   <item name="icon">@android:color/transparent</item>
+    </style>
+
+    <style name="gdtheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"
+            tools:ignore="NewApi">@style/gdactionbar</item>
+        <item name="actionBarStyle">@style/gdactionbar</item>
+
+        <item name="android:homeAsUpIndicator"
+            tools:ignore="NewApi">@drawable/ic_action_back</item>
+        <item name="homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="android:actionOverflowButtonStyle"
+            tools:ignore="NewApi">@style/Armageddon.Theme.OverFlow</item>
+        <item name="actionOverflowButtonStyle">@style/Armageddon.Theme.OverFlow</item>
+    </style>
+    <style name="gdactionbar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background"
+            tools:ignore="NewApi">@color/red_transparent</item>
+        <item name="background">@color/red_transparent</item>
+        <item name="android:titleTextStyle"
+            tools:ignore="NewApi">@style/TitleBarTextColor</item>
+        <item name="titleTextStyle">@style/TitleBarTextColor</item>
+        <item name="android:height">58.0dip</item>
+             <item name="android:icon"
+                 tools:ignore="NewApi">@android:color/transparent</item>
+             <item name="icon">@android:color/transparent</item>
+    </style>
+    <style name="Card">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+
+
+        <item name="android:background">@drawable/card_background</item>
+    </style>
+
+    <style name="CardPhoto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="CardTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">28sp</item>
+
+
+        <item name="android:gravity">bottom|left</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+
+
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+</resources>

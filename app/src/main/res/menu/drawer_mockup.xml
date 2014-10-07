@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.naman14.armagaddon.Mainactivity" >
+
+    <group android:id="@+id/group1" >
+
+        <item
+            android:id="@+id/HelpAndFeedback"
+            android:showAsAction="never"
+            android:title="@string/help_feedback">
+        </item>
+    </group>
+
+</menu>

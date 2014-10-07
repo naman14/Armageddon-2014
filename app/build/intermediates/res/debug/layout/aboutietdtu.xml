@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+
+    android:clipToPadding="false"
+
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:layout_marginBottom="4dp"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:scaleType="center"
+            android:src="@drawable/dtu" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red_transparent"
+            android:padding="12dp">
+
+            <com.naman14.armagaddon.mockup.design.tests.GoogleSearchTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:fontFamily="sans-serif-condensed"
+                android:text="IET DTU Student Chapter"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+
+        android:gravity="center"
+        android:paddingTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/red_transparent"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:text="www.ietdtu.com"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:text="The IET chapter of DTU has jointly worked to provide a unique opportunity to review the latest developments in engineering management.
+It is specifically organized to keep you informed,enhance your skills and knowledge,and involve you in helping to develop the future of science and technology"
+/>
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView><!-- From: file:/Users/naman/Armagedoon%202014/app/src/main/res/layout/aboutietdtu.xml -->

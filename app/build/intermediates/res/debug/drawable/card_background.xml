@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/card_corner_radius"/>
+    <solid android:color="#fff" />
+</shape>
+<!-- From: file:/Users/naman/Armagedoon%202014/app/src/main/res/drawable/card_background.xml -->

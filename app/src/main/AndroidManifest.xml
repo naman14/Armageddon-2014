@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.naman14.armagaddon"
+    android:versionCode="5"
+    android:versionName="0.5" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    <permission
+        android:name="com.naman14.armagaddon.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.naman14.armagaddon.permission.C2D_MESSAGE" />
+    <!-- App receives GCM messages. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- GCM connects to Google Services. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Armageddon.Theme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+
+        </activity>
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="lt.andro.gcm4public" />
+            </intent-filter>
+        </receiver>
+        <service android:name="GCMIntentService" />
+        <activity android:name=".Mainactivity" >
+        </activity>
+        <activity android:name=".ArmagaddonActivity" >
+        </activity>
+        <activity
+            android:name=".Raspberry"
+            android:label="Raspberry Pi" >
+        </activity>
+        <activity android:name=".Quizmoz" >
+        </activity>
+        <activity android:name=".Androidapp" >
+        </activity>
+        <activity android:name=".Animation" >
+        </activity>
+        <activity android:name=".Aerldeaero" >
+        </activity>
+        <activity android:name=".Autocadd" >
+        </activity>
+        <activity android:name=".Groupdiscussion" >
+        </activity>
+        <activity android:name=".AboutDtu" >
+        </activity>
+        <activity android:name=".AboutIet" >
+        </activity>
+        <activity android:name=".AboutIetDtu" >
+        </activity>
+    </application>
+
+
+
+
+</manifest>

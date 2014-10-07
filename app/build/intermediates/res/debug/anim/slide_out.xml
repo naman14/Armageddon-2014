@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_longAnimTime"
+    android:fromYDelta="100%"
+    android:toYDelta="0%" /><!-- From: file:/Users/naman/Armagedoon%202014/app/src/main/res/anim/slide_out.xml -->

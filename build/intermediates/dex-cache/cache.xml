@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/naman/Armagedoon 2014/app/build/intermediates/pre-dexed/debug/classes-b81b4a7a7091e1863231c813d24986bbcbb6c742.jar"
+        jar="/Users/naman/Armagedoon 2014/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="/Users/naman/AndroidStudioProjects/GoogleSearchMaterialDesignConcept-11/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/naman/AndroidStudioProjects/GoogleSearchMaterialDesignConcept-11/app/build/intermediates/pre-dexed/debug/classes-65fbc082a5f59af6242fee00d9357971180ad2ef.jar"
+        jar="/Users/naman/AndroidStudioProjects/GoogleSearchMaterialDesignConcept-11/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/Users/naman/AndroidStudioProjects/GoogleSearchMaterialDesignConcept-11/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-0809b35f9909552dff69ec1cd8689b58bb9a23af.jar"
+        jar="/Users/naman/AndroidStudioProjects/GoogleSearchMaterialDesignConcept-11/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/naman/Armagedoon 2014/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-3842ba3bc7cc7aaf651e1f4cd78f5b0ec1364e5e.jar"
+        jar="/Users/naman/Armagedoon 2014/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/naman/Armagedoon 2014/app/build/intermediates/pre-dexed/debug/gcm-1e07786cfea9440f7c5094d4665d2aa4659bd496.jar"
+        jar="/Users/naman/Armagedoon 2014/app/libs/gcm.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa"/>
+    <item
+        dex="/Users/naman/Armagedoon 2014/app/build/intermediates/pre-dexed/debug/classes-2cf6c042be82ebb1b005a5ef2eeebac8b986594f.jar"
+        jar="/Users/naman/Armagedoon 2014/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+
+</pre-dex-items>
